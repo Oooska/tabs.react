@@ -1,0 +1,19 @@
+{
+	"name": "tabs.react",
+	"version": "0.0.1",
+	"description": "Simple tabs for react.",
+	"keywords": [
+		"react",
+		"react-component",
+		"react-tabs"
+	],
+	
+	"repository": {
+		"type": "git",
+		"url": "git@github.com/oooska/tabs.react"
+	},
+
+	"Dependencies": {
+		"react" : "^0.12.0"
+	}
+}
