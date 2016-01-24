@@ -1,19 +1,23 @@
 {
-	"name": "tabs.react",
-	"version": "0.0.1",
-	"description": "Simple tabs for react.",
-	"keywords": [
-		"react",
-		"react-component",
-		"react-tabs"
-	],
-	
-	"repository": {
-		"type": "git",
-		"url": "git@github.com/oooska/tabs.react"
-	},
+  "name": "tabs.react",
+  "version": "0.0.1",
+  "description": "Simple tabs for react.",
+  "main": "build/Tabs.react.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-tabs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/oooska/tabs.react"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-react": "^6.3.13"
+  }, 
 
-	"Dependencies": {
-		"react" : "^0.12.0"
-	}
+  "peerDependencies": {
+    "react": "^0.14.x"
+  },
 }
