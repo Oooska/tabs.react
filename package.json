@@ -19,5 +19,5 @@
 
   "peerDependencies": {
     "react": "^0.14.x"
-  },
+  }
 }
