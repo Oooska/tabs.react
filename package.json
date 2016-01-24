@@ -8,15 +8,19 @@
     "react-component",
     "react-tabs"
   ],
+  "scripts": {
+    "build": "babel --presets react lib/ --out-dir build/",
+    "watch": "babel --presets react lib/ --watch --out-dir build/"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com/oooska/tabs.react"
   },
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.4.5",
     "babel-preset-react": "^6.3.13"
-  }, 
-
+  },
   "peerDependencies": {
     "react": "^0.14.x"
   }
